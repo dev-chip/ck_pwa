@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Tequila Sunset",
+    "ingredients": "• 50ml tequila\n• 200ml orange juice\n• 25ml cherry sours\n• Orange slice, garnish",
+    "method": "1) In a highball glass filled with ice cubes, pour the tequila and orange juice.\n2) Stir well.\n3) Add cherry sours.\n4) Garnish with an orange slice.",
+    "description": "TODO",
+    "img":"tequila_sunset.jpg"
+  },
+  {
+    "name": "Blue Lagoon",
+    "ingredients": "• 25ml blue curaçao\n• 25ml vodka\n• lemonade",
+    "method": "1) Put ice cubes into a hurricane glass.\n2) Pour over the curaçao, vodka, and lemonade.\n3) Stir well.\n4) Garnish with lemon.",
+    "description": "TODO",
+    "img":"blue_lagoon.jpg"
+  },
+  {
+    "name": "Espresso Martini",
+    "ingredients": "• 25ml Kahlúa\n• 50ml Vodka\n• 1 shot espresso\n• 1/2 egg white",
+    "method": "1) Put ice into a Martini glass (to chill the glass).\n2) Add ice, Kahlúa, Vodka, espresso shot, and egg white into a Boston Shaker.\n3) Shake well\n4) Remove ice from the Martini glass and strain contents of shaker into a Martini glass",
+    "description": "TODO",
+    "img":"espresso_martini.jpg"
+  },
+  {
+    "name": "Aperol Spritz",
+    "ingredients": "• 50ml Aperol\n• 75ml Prosecco\n• Lemonade",
+    "method": "1) Put a few cubes of ice into a glass\n2) Add a Aperol and prosecco\n3) Top up with lemonade",
+    "description": "TODO",
+    "img":"aperol_spritz.jpg"
+  },
+  {
+    "name": "Vodka Martini",
+    "ingredients": "• 60ml Vodka\n• 1 tbsp dry vermouth\n• olive or lemon peel, to garnish",
+    "method": "1) Stir the vodka, dry vermouth and a little ice together or put them in a cocktail shaker to combine.\n2) Strain into a chilled martini glass. Serve with an olive on a cocktail stick or a twist of lemon peel.",
+    "description": "TODO",
+    "img":"vodka_martini.jpg"
+  },
+  {
+    "name": "Yoda",
+    "ingredients": "• 25ml blue curaçao\n• 25ml creme de banana\n• 1 bottle VK Orange",
+    "method": "1) Fill a 16oz glass with ice.\n2) Add blue curaçao and creme de banana.\n3) Add the full bottle of VK.\n4) Stir well.",
+    "description": "TODO",
+    "img":"yoda.jpg"
+  },
+  {
+    "name": "Sex on the Beach",
+    "ingredients": "• 50ml vodka\n• 25ml peach schnapps\n• orange\n• cranberry juice",
+    "method": "1) Fill two tall glasses with ice cubes.\n2) Add the vodka, peach schnapps and fruit juices.\n3) Stir well.\n4) Garnish with orange slices.",
+    "description": "TODO",
+    "img":"sex.jpg"
+  },
+  {
+    "name": "Cosmopolitan",
+    "ingredients": "• 50ml lemon vodka\n• 25ml triple sec\n• cranberry juice\n• lime juice",
+    "method": "1) Shake ingredients in a cocktail shaker with ice.\n2) Strain into a cocktail glass.\n3) Garnish with a lemon peel.",
+    "description": "TODO",
+    "img":"cosmopolitan.jpg"
+  },
+  {
+    "name": "Zombie",
+    "ingredients": "• 25ml dark rum\n• 25ml white rum\n•25ml triple sec\n• 50ml lime juice\n• lime\n• pineapple juice\n• orange juice\n• overproof rum (optional)\n• orange",
+    "method": "1) Pour the rums, triple sec, lime juice and fruit juices into a cocktail shaker filled with ice.\n2) Shake well.\n3) Strain the mixture into a tall glass or hurricane glass filled with ice.\n4) Garnish with a slice of orange.\n5) Optional: Cut a lime in half, make a hole in it with a spoon (saving the juice for later), balance upright on top of the cocktail, fill with overproof rum and ignite!",
+    "description": "TODO",
+    "img":"zombie.png"
+  },
+  {
+    "name": "Tequila Sunrise",
+    "ingredients": "• 50ml tequila\n• 200ml orange juice\n• 25ml grenadine syrup\n• Orange slice, garnish",
+    "method": "1) In a highball glass filled with ice cubes, pour the tequila and orange juice.\n2) Stir well.\n3) Slowly pour the grenadine around the inside edge of the glass.\n4) Garnish with an orange slice.",
+    "description": "TODO",
+    "img":"tequila_sunset.jpg"
+  },
+  {
+    "name": "Woo Woo",
+    "ingredients": "• 50ml vodka\n• 25ml peach schnapps\n• 100ml cranberry juice\n• lime",
+    "method": "1) Fill a cocktail shaker with ice then add the vodka, peach schnapps, cranberry juice and a few drops of lime juice.\n2) Shake well.\n3) Strain into a glass.\n4) Garnish with a wedge of lime.",
+    "description": "TODO",
+    "img":"woo_woo.jpg"
+  },
+  {
+    "name": "Cuba Libre",
+    "ingredients": "• 50ml rum\n• cola\n• lime",
+    "method": "1) Add ice to a glass.\n2) Add rum.\n3) Add lime and stir.\n4) Garnish with slices of lime.",
+    "description": "TODO",
+    "img":"cuba_libre.jpg"
+  },
+  {
+    "name": "Godfather",
+    "ingredients": "• 50ml whiskey\n• 25ml amaretto\n• cola\n• lime",
+    "method": "1) Fill a glass with ice then add the whiskey, amaretto, cola and a teaspoon of lime juice.\n2) Stir well.\n3) Garnish with a wedge of lime.",
+    "description": "TODO",
+    "img":"godfather.jpg"
+  }
+]

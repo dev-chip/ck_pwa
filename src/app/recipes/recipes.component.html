@@ -1,15 +1,7 @@
 <div class="container-fluid">
     <h2 class="mt-4 ms-3">Recipes</h2>
     <div class="row d-flex">
-    <div class="mx-5 mt-5" *ngFor="let item of listOfRecipes">
-        <!--
-            0 is id
-            1 is Cocktail name
-            2 is image path
-            3 is ingredients
-            4 is method
-            5 is description
-        -->
+    <div class="mx-5 mt-5" *ngFor="let item of listOfCocktails">
         
         <!--<div class="card " style="width: 18rem; ">
             <img src={{item[1]}} class="card-img-top" style="height: 30rem;">
@@ -23,19 +15,18 @@
         <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src={{item[2]}} style="max-height: 18rem; max-width:9rem;">
+                <img src="assets/images/cocktails/{{item.img}}" style="max-height: 18rem; max-width:9rem;">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title ">{{item[1]}}</h5>
-                  <p class="card-text">{{item[5]}}</p>
-                  <button class="btn btn-primary align-self-end mt-auto" routerLink="/drink/{{item[0]}}">See Ingredients</button>
+                  <h5 class="card-title ">{{item.name}}</h5>
+                  <p class="card-text">{{item.description}}</p>
+                  <button class="btn btn-primary align-self-end mt-auto" routerLink="/drink/item.name}">See Ingredients</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
     </div>
 
 </div>
