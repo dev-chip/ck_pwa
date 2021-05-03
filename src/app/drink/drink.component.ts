@@ -10,15 +10,18 @@ import cocktails from "src/assets/cocktails.json";
   styleUrls: ['./drink.component.scss']
 })
 export class DrinkComponent implements OnInit {
-  
-  listOfRecipes = cocktails
+  listOfCocktails = cocktails
+  cocktailID:any=''
 
   constructor(
     private route: ActivatedRoute
-  ) { }
+  ) { 
+    this.route.paramMap.subscribe(params=>{
+      this.cocktailID=params.get('id') //+ string to number
+    })
+  }
   
     ngOnInit(){
-
     }
   
 
