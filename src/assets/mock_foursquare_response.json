@@ -1,0 +1,1796 @@
+{
+    "meta": {
+        "code": 200,
+        "requestId": "60919e6e1a767d4f3d93c0c2"
+    },
+    "response": {
+        "suggestedFilters": {
+            "header": "Tap to show:",
+            "filters": [
+                {
+                    "name": "Open now",
+                    "key": "openNow"
+                },
+                {
+                    "name": "$-$$$$",
+                    "key": "price"
+                }
+            ]
+        },
+        "suggestedRadius": 1683,
+        "headerLocation": "Northwestern Queens",
+        "headerFullLocation": "Northwestern Queens, Queens",
+        "headerLocationGranularity": "neighborhood",
+        "query": "cocktail bar",
+        "totalResults": 175,
+        "suggestedBounds": {
+            "ne": {
+                "lat": 40.74948702718594,
+                "lng": -73.9391135565981
+            },
+            "sw": {
+                "lat": 40.713041983329624,
+                "lng": -73.96100087825724
+            }
+        },
+        "groups": [
+            {
+                "type": "Recommended Places",
+                "name": "recommended",
+                "items": [
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "57c4cfaf498eafa3309b057b",
+                            "name": "Goldie's",
+                            "contact": {},
+                            "location": {
+                                "address": "195 Nassau Ave.",
+                                "crossStreet": "Humboldt St.",
+                                "lat": 40.725632222861485,
+                                "lng": -73.94514557765766,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.725632222861485,
+                                        "lng": -73.94514557765766
+                                    }
+                                ],
+                                "distance": 1002,
+                                "postalCode": "11222",
+                                "cc": "US",
+                                "state": "New York",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "195 Nassau Ave. (Humboldt St.)",
+                                    "NY 11222",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": false,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-57c4cfaf498eafa3309b057b-0"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "59220a5162420b2d9aafffe7",
+                            "name": "Diamond Lil",
+                            "contact": {},
+                            "location": {
+                                "address": "179 Nassau Avenue",
+                                "crossStreet": "Diamond Street",
+                                "lat": 40.725411770091384,
+                                "lng": -73.94600043565924,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.725411770091384,
+                                        "lng": -73.94600043565924
+                                    }
+                                ],
+                                "distance": 1076,
+                                "cc": "US",
+                                "city": "Brooklyn",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "179 Nassau Avenue (Diamond Street)",
+                                    "Brooklyn, NY",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": false,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-59220a5162420b2d9aafffe7-1"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "52c4d86911d22261f6be51d8",
+                            "name": "Ramona",
+                            "contact": {},
+                            "location": {
+                                "address": "113 Franklin St",
+                                "crossStreet": "btwn Greenpoint Ave. & Kent St.",
+                                "lat": 40.7302487948735,
+                                "lng": -73.95773857882399,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.7302487948735,
+                                        "lng": -73.95773857882399
+                                    }
+                                ],
+                                "distance": 1898,
+                                "postalCode": "11222",
+                                "cc": "US",
+                                "city": "Brooklyn",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "113 Franklin St (btwn Greenpoint Ave. & Kent St.)",
+                                    "Brooklyn, NY 11222",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": false,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "flags": {
+                            "outsideRadius": true
+                        },
+                        "referralId": "e-0-52c4d86911d22261f6be51d8-2"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "49d95652f964a520235e1fe3",
+                            "name": "The Richardson",
+                            "contact": {},
+                            "location": {
+                                "address": "451 Graham Ave",
+                                "crossStreet": "btwn Richardson St. & Meeker Ave.",
+                                "lat": 40.718983988909976,
+                                "lng": -73.94520437809457,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.718983988909976,
+                                        "lng": -73.94520437809457
+                                    },
+                                    {
+                                        "label": "entrance",
+                                        "lat": 40.718925,
+                                        "lng": -73.945269
+                                    }
+                                ],
+                                "distance": 1543,
+                                "postalCode": "11222",
+                                "cc": "US",
+                                "city": "Brooklyn",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "451 Graham Ave (btwn Richardson St. & Meeker Ave.)",
+                                    "Brooklyn, NY 11222",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": true,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "venuePage": {
+                                "id": "33111338"
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-49d95652f964a520235e1fe3-3"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "49ff6b95f964a5201f701fe3",
+                            "name": "Dutch Kills",
+                            "contact": {},
+                            "location": {
+                                "address": "27-24 Jackson Ave",
+                                "crossStreet": "btwn Queens & Dutch Kills St",
+                                "lat": 40.74783043428339,
+                                "lng": -73.94010843485533,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.74783043428339,
+                                        "lng": -73.94010843485533
+                                    }
+                                ],
+                                "distance": 1960,
+                                "postalCode": "11101",
+                                "cc": "US",
+                                "city": "Long Island City",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "27-24 Jackson Ave (btwn Queens & Dutch Kills St)",
+                                    "Long Island City, NY 11101",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": false,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "flags": {
+                            "outsideRadius": true
+                        },
+                        "referralId": "e-0-49ff6b95f964a5201f701fe3-4"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "47ba56ddf964a520c94d1fe3",
+                            "name": "Hotel Delmano",
+                            "contact": {},
+                            "location": {
+                                "address": "128 N 9th St.",
+                                "crossStreet": "at Berry St",
+                                "lat": 40.71977374527582,
+                                "lng": -73.95786932270192,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.71977374527582,
+                                        "lng": -73.95786932270192
+                                    }
+                                ],
+                                "distance": 2258,
+                                "postalCode": "11211",
+                                "cc": "US",
+                                "city": "Brooklyn",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "128 N 9th St. (at Berry St)",
+                                    "Brooklyn, NY 11211",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": true,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "venuePage": {
+                                "id": "81172028"
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "flags": {
+                            "outsideRadius": true
+                        },
+                        "referralId": "e-0-47ba56ddf964a520c94d1fe3-5"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4ecbb1a5f9f4a825875e4376",
+                            "name": "The Shanty",
+                            "contact": {},
+                            "location": {
+                                "address": "79 Richardson St",
+                                "crossStreet": "btwn Lorimer St & Leonard St",
+                                "lat": 40.718507,
+                                "lng": -73.94883,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.718507,
+                                        "lng": -73.94883
+                                    },
+                                    {
+                                        "label": "entrance",
+                                        "lat": 40.718509,
+                                        "lng": -73.948722
+                                    }
+                                ],
+                                "distance": 1768,
+                                "postalCode": "11211",
+                                "cc": "US",
+                                "city": "Brooklyn",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "79 Richardson St (btwn Lorimer St & Leonard St)",
+                                    "Brooklyn, NY 11211",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": true,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "venuePage": {
+                                "id": "78960892"
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "flags": {
+                            "outsideRadius": true
+                        },
+                        "referralId": "e-0-4ecbb1a5f9f4a825875e4376-6"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "5c9ab40cb6eedb002c6b7030",
+                            "name": "Sama Street",
+                            "contact": {},
+                            "location": {
+                                "address": "988 Manhattan Ave",
+                                "crossStreet": "Huron Street",
+                                "lat": 40.732702,
+                                "lng": -73.954613,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.732702,
+                                        "lng": -73.954613
+                                    }
+                                ],
+                                "distance": 1650,
+                                "postalCode": "11222",
+                                "cc": "US",
+                                "city": "New York",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "988 Manhattan Ave (Huron Street)",
+                                    "New York, NY 11222",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": false,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "delivery": {
+                                "id": "2030825",
+                                "url": "https://www.seamless.com/menu/sama-street-988-manhattan-ave-brooklyn/2030825?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=2030825",
+                                "provider": {
+                                    "name": "seamless",
+                                    "icon": {
+                                        "prefix": "https://fastly.4sqi.net/img/general/cap/",
+                                        "sizes": [
+                                            40,
+                                            50
+                                        ],
+                                        "name": "/delivery_provider_seamless_20180129.png"
+                                    }
+                                }
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-5c9ab40cb6eedb002c6b7030-7"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4bf09fcf17880f47ea902937",
+                            "name": "Sugardaddy's Gentlemen's Club",
+                            "contact": {},
+                            "location": {
+                                "address": "51-07 27th Street",
+                                "lat": 40.7395023,
+                                "lng": -73.9426222,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.7395023,
+                                        "lng": -73.9426222
+                                    }
+                                ],
+                                "distance": 1169,
+                                "postalCode": "11101",
+                                "cc": "US",
+                                "city": "Queens",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "51-07 27th Street",
+                                    "Long Island City, NY 11101",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": true,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "venuePage": {
+                                "id": "38408082"
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-4bf09fcf17880f47ea902937-8"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4e35d04162e17d2908384c6f",
+                            "name": "Troost",
+                            "contact": {},
+                            "location": {
+                                "address": "1011 Manhattan Ave",
+                                "crossStreet": "btwn Green & Huron St",
+                                "lat": 40.73349590190173,
+                                "lng": -73.95492785042778,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.73349590190173,
+                                        "lng": -73.95492785042778
+                                    },
+                                    {
+                                        "label": "entrance",
+                                        "lat": 40.733472,
+                                        "lng": -73.954942
+                                    }
+                                ],
+                                "distance": 1691,
+                                "postalCode": "11222",
+                                "cc": "US",
+                                "city": "Brooklyn",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "1011 Manhattan Ave (btwn Green & Huron St)",
+                                    "Brooklyn, NY 11222",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": true,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "delivery": {
+                                "id": "2476772",
+                                "url": "https://www.seamless.com/menu/troost-1011-manhattan-avenue-brooklyn/2476772?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=2476772",
+                                "provider": {
+                                    "name": "seamless",
+                                    "icon": {
+                                        "prefix": "https://fastly.4sqi.net/img/general/cap/",
+                                        "sizes": [
+                                            40,
+                                            50
+                                        ],
+                                        "name": "/delivery_provider_seamless_20180129.png"
+                                    }
+                                }
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "venuePage": {
+                                "id": "80566988"
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "flags": {
+                            "outsideRadius": true
+                        },
+                        "referralId": "e-0-4e35d04162e17d2908384c6f-9"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "5e322bcd487af90008861959",
+                            "name": "Good Bar",
+                            "contact": {},
+                            "location": {
+                                "address": "1 Bedford Ave",
+                                "lat": 40.723779,
+                                "lng": -73.951199,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.723779,
+                                        "lng": -73.951199
+                                    }
+                                ],
+                                "distance": 1546,
+                                "postalCode": "11222",
+                                "cc": "US",
+                                "city": "Brooklyn",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "1 Bedford Ave",
+                                    "Brooklyn, NY 11222",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": false,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "delivery": {
+                                "id": "2379296",
+                                "url": "https://www.seamless.com/menu/good-bar-1-bedford-ave-brooklyn/2379296?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=2379296",
+                                "provider": {
+                                    "name": "seamless",
+                                    "icon": {
+                                        "prefix": "https://fastly.4sqi.net/img/general/cap/",
+                                        "sizes": [
+                                            40,
+                                            50
+                                        ],
+                                        "name": "/delivery_provider_seamless_20180129.png"
+                                    }
+                                }
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-5e322bcd487af90008861959-10"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4b5678aaf964a520e71128e3",
+                            "name": "Night of Joy",
+                            "contact": {},
+                            "location": {
+                                "address": "667 Lorimer St",
+                                "crossStreet": "at Meeker Ave",
+                                "lat": 40.716922707465564,
+                                "lng": -73.94982742789864,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.716922707465564,
+                                        "lng": -73.94982742789864
+                                    },
+                                    {
+                                        "label": "entrance",
+                                        "lat": 40.717027,
+                                        "lng": -73.949967
+                                    }
+                                ],
+                                "distance": 1958,
+                                "postalCode": "11211",
+                                "cc": "US",
+                                "city": "Brooklyn",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "667 Lorimer St (at Meeker Ave)",
+                                    "Brooklyn, NY 11211",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": false,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "flags": {
+                            "outsideRadius": true
+                        },
+                        "referralId": "e-0-4b5678aaf964a520e71128e3-11"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "5106b507067d28e49859ec95",
+                            "name": "Achilles Heel",
+                            "contact": {},
+                            "location": {
+                                "address": "180 West St",
+                                "crossStreet": "at Green St",
+                                "lat": 40.7332432512603,
+                                "lng": -73.95964338962443,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.7332432512603,
+                                        "lng": -73.95964338962443
+                                    },
+                                    {
+                                        "label": "entrance",
+                                        "lat": 40.733169,
+                                        "lng": -73.959708
+                                    }
+                                ],
+                                "distance": 2079,
+                                "postalCode": "11222",
+                                "cc": "US",
+                                "city": "Brooklyn",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "180 West St (at Green St)",
+                                    "Brooklyn, NY 11222",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": false,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "flags": {
+                            "outsideRadius": true
+                        },
+                        "referralId": "e-0-5106b507067d28e49859ec95-12"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "5198371d498e9c64fd2d7c18",
+                            "name": "Broken Land",
+                            "contact": {},
+                            "location": {
+                                "address": "105 Franklin St",
+                                "crossStreet": "btwn Milton St & Greenpoint Ave",
+                                "lat": 40.729595,
+                                "lng": -73.957691,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.729595,
+                                        "lng": -73.957691
+                                    }
+                                ],
+                                "distance": 1897,
+                                "postalCode": "11222",
+                                "cc": "US",
+                                "city": "Brooklyn",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "105 Franklin St (btwn Milton St & Greenpoint Ave)",
+                                    "Brooklyn, NY 11222",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": false,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "flags": {
+                            "outsideRadius": true
+                        },
+                        "referralId": "e-0-5198371d498e9c64fd2d7c18-13"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "5e4c841b1485b40007d77e6e",
+                            "name": "Rule Of Thirds",
+                            "contact": {},
+                            "location": {
+                                "address": "171 Banker St",
+                                "crossStreet": "Norman St",
+                                "lat": 40.724699,
+                                "lng": -73.955177,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.724699,
+                                        "lng": -73.955177
+                                    }
+                                ],
+                                "distance": 1805,
+                                "postalCode": "11222",
+                                "cc": "US",
+                                "city": "New York",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "171 Banker St (Norman St)",
+                                    "New York, NY 11222",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": false,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "delivery": {
+                                "id": "2523796",
+                                "url": "https://www.seamless.com/menu/rule-of-thirds-171-banker-st-brooklyn/2523796?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=2523796",
+                                "provider": {
+                                    "name": "seamless",
+                                    "icon": {
+                                        "prefix": "https://fastly.4sqi.net/img/general/cap/",
+                                        "sizes": [
+                                            40,
+                                            50
+                                        ],
+                                        "name": "/delivery_provider_seamless_20180129.png"
+                                    }
+                                }
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "flags": {
+                            "outsideRadius": true
+                        },
+                        "referralId": "e-0-5e4c841b1485b40007d77e6e-14"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "5bce6196deb49500259bfa0e",
+                            "name": "Easy Lover",
+                            "contact": {},
+                            "location": {
+                                "address": "790 Metropolitan Ave",
+                                "lat": 40.71469857623219,
+                                "lng": -73.94266004125521,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.71469857623219,
+                                        "lng": -73.94266004125521
+                                    }
+                                ],
+                                "distance": 1878,
+                                "postalCode": "11211",
+                                "cc": "US",
+                                "city": "Brooklyn",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "790 Metropolitan Ave",
+                                    "Brooklyn, NY 11211",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": false,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "flags": {
+                            "outsideRadius": true
+                        },
+                        "referralId": "e-0-5bce6196deb49500259bfa0e-15"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4a234718f964a520cb7d1fe3",
+                            "name": "Beco",
+                            "contact": {},
+                            "location": {
+                                "address": "45 Richardson St",
+                                "crossStreet": "btwn Lorimer St & Union Ave",
+                                "lat": 40.71833051925473,
+                                "lng": -73.95031166529657,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.71833051925473,
+                                        "lng": -73.95031166529657
+                                    },
+                                    {
+                                        "label": "entrance",
+                                        "lat": 40.718345,
+                                        "lng": -73.95045
+                                    }
+                                ],
+                                "distance": 1866,
+                                "postalCode": "11211",
+                                "cc": "US",
+                                "city": "Brooklyn",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "45 Richardson St (btwn Lorimer St & Union Ave)",
+                                    "Brooklyn, NY 11211",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": true,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "delivery": {
+                                "id": "516604",
+                                "url": "https://www.seamless.com/menu/beco-45-richardson-st-brooklyn/516604?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=516604",
+                                "provider": {
+                                    "name": "seamless",
+                                    "icon": {
+                                        "prefix": "https://fastly.4sqi.net/img/general/cap/",
+                                        "sizes": [
+                                            40,
+                                            50
+                                        ],
+                                        "name": "/delivery_provider_seamless_20180129.png"
+                                    }
+                                }
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "venuePage": {
+                                "id": "56688313"
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "flags": {
+                            "outsideRadius": true
+                        },
+                        "referralId": "e-0-4a234718f964a520cb7d1fe3-16"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "522004a693cd39a8ea569310",
+                            "name": "The Moonlight Mile",
+                            "contact": {},
+                            "location": {
+                                "address": "200 Franklin St",
+                                "crossStreet": "btwn India St & Huron St",
+                                "lat": 40.73206003215346,
+                                "lng": -73.95790395558619,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.73206003215346,
+                                        "lng": -73.95790395558619
+                                    }
+                                ],
+                                "distance": 1918,
+                                "postalCode": "11222",
+                                "cc": "US",
+                                "city": "Brooklyn",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "200 Franklin St (btwn India St & Huron St)",
+                                    "Brooklyn, NY 11222",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": true,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "delivery": {
+                                "id": "2479087",
+                                "url": "https://www.seamless.com/menu/the-moonlight-mile-200-franklin-street-brooklyn/2479087?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=2479087",
+                                "provider": {
+                                    "name": "seamless",
+                                    "icon": {
+                                        "prefix": "https://fastly.4sqi.net/img/general/cap/",
+                                        "sizes": [
+                                            40,
+                                            50
+                                        ],
+                                        "name": "/delivery_provider_seamless_20180129.png"
+                                    }
+                                }
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "venuePage": {
+                                "id": "65240268"
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "flags": {
+                            "outsideRadius": true
+                        },
+                        "referralId": "e-0-522004a693cd39a8ea569310-17"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "5a51a92497461750cb744252",
+                            "name": "Grand Republic Cocktail Club",
+                            "contact": {},
+                            "location": {
+                                "address": "19 Greenpoint Avenue",
+                                "crossStreet": "West St",
+                                "lat": 40.729766,
+                                "lng": -73.960006,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.729766,
+                                        "lng": -73.960006
+                                    }
+                                ],
+                                "distance": 2091,
+                                "postalCode": "11222",
+                                "cc": "US",
+                                "city": "New York",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "19 Greenpoint Avenue (West St)",
+                                    "New York, NY 11222",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": false,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "delivery": {
+                                "id": "2479222",
+                                "url": "https://www.seamless.com/menu/grand-republic-cocktail-club-19-greenpoint-avenue-brooklyn/2479222?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=2479222",
+                                "provider": {
+                                    "name": "seamless",
+                                    "icon": {
+                                        "prefix": "https://fastly.4sqi.net/img/general/cap/",
+                                        "sizes": [
+                                            40,
+                                            50
+                                        ],
+                                        "name": "/delivery_provider_seamless_20180129.png"
+                                    }
+                                }
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "flags": {
+                            "outsideRadius": true
+                        },
+                        "referralId": "e-0-5a51a92497461750cb744252-18"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "598b767cc0f1632f70376a5e",
+                            "name": "Levante",
+                            "contact": {},
+                            "location": {
+                                "address": "26-21 Jackson Ave",
+                                "crossStreet": "44th Dr. - 43rd Avenue",
+                                "lat": 40.747517967937966,
+                                "lng": -73.94159008228058,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 40.747517967937966,
+                                        "lng": -73.94159008228058
+                                    }
+                                ],
+                                "distance": 1956,
+                                "postalCode": "11101",
+                                "cc": "US",
+                                "city": "Long Island City",
+                                "state": "NY",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "26-21 Jackson Ave (44th Dr. - 43rd Avenue)",
+                                    "Long Island City, NY 11101",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11e941735",
+                                    "name": "Cocktail Bar",
+                                    "pluralName": "Cocktail Bars",
+                                    "shortName": "Cocktail",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": true,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "delivery": {
+                                "id": "715240",
+                                "url": "https://www.seamless.com/menu/levante-2621-jackson-ave-long-island-city/715240?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=715240",
+                                "provider": {
+                                    "name": "seamless",
+                                    "icon": {
+                                        "prefix": "https://fastly.4sqi.net/img/general/cap/",
+                                        "sizes": [
+                                            40,
+                                            50
+                                        ],
+                                        "name": "/delivery_provider_seamless_20180129.png"
+                                    }
+                                }
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "venuePage": {
+                                "id": "446523729"
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "flags": {
+                            "outsideRadius": true
+                        },
+                        "referralId": "e-0-598b767cc0f1632f70376a5e-19"
+                    }
+                ]
+            }
+        ]
+    }
+}
