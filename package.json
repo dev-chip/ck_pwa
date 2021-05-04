@@ -22,6 +22,7 @@
     "@angular/service-worker": "~11.2.10",
     "@types/googlemaps": "^3.43.3",
     "bootstrap": "^5.0.0-beta3",
+    "jquery": "^3.6.0",
     "ngx-bootstrap": "^6.2.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
