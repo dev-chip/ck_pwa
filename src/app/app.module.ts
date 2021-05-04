@@ -10,6 +10,7 @@ import { DrinkComponent } from './drink/drink.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { MapComponent } from './map/map.component';
+import { CompetitionComponent } from './competition/competition.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { MapComponent } from './map/map.component';
     RecipesComponent,
     DrinkComponent,
     MapComponent,
+    CompetitionComponent,
   ],
   imports: [
     BrowserModule,
