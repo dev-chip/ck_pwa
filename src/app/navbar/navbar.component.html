@@ -1,12 +1,14 @@
-<header class="navbar mx-3 sticky-top bg-primary flex-md-nowrap p-0 shadow rounded-bottom">
+<header class="navbar mx-3 sticky-top bg-dark flex-md-nowrap p-0 shadow rounded-bottom">
 <a class="navbar-brand col-md-3 col lg-2 me-0 px-3 text-light" href="#">Cocktail King</a>
 
 </header>
 <nav class="navbar navbar-fixed-top bg-light mx-5 rounded-bottom" #navbarMenu>
     <div class="container-fluid d-flex justify-content-start">
-        <ul class="navbar-nav me-5" type="button" routerLink="/home">Home</ul>
-        <ul class="navbar-nav me-5" type="button"  routerLink="/recipes">Recipes</ul>
-        <ul class="navbar-nav me-5" type="button" routerLink="/localBars">Local Bars</ul>
-        <ul class="navbar-nav me-5" type="button" routerLink="/competition">Competition</ul>
+        <ol class="navbar me-5">
+            <li class="nav-item" type="button" style="margin-right: 20px;"routerLink="/home">Home</li>
+            <li class="nav-item" type="button" style="margin-right: 20px;" routerLink="/recipes">Recipes</li>
+            <li class="nav-item" type="button" style="margin-right: 20px;"  routerLink="/localBars">Local Bars</li>
+            <li class="nav-item" type="button" routerLink="/competition">Competition</li>
+        </ol>
     </div>
 </nav>
