@@ -29,47 +29,73 @@ export class MapComponent implements AfterViewInit  {
   totalAngularPackages: any
   errorMessage: any
   venues:Venue[] = []
+  alertText: string
   getLocationSuccessful = false
-  geVenuesSuccessful = false
+  getVenuesSuccessful = false
   previousInfoWindow = null
+  callbacksDone = false
+  mapReady = false
+  mapLoaded = false
   
 
   constructor(private http: HttpClient, private zone: NgZone) {
   }
 
-   ngOnInit(){
-      // get location
-      this.getLocation()
-      if(this.getLocationSuccessful){
-        // on success, get local bars
-        this.mockGetLocalBars()
-        if(this.geVenuesSuccessful){
-          // on success, set venue markers
-          this.setVenueMarkers()
-        }
-        else{
-          console.log("Failed to load local bars.")
-        }
-      }
-    else{
-      console.log("Failed to aquire user location.")
-    }
-   }
+  ngOnInit(){
+    // get location
+    this.getLocation()
+  }
 
   ngAfterViewInit() {
-    this.mapInitializer();
+    this.mapReady = true
+    if(this.callbacksDone){
+      this.mapInitializer();
+      this.mapLoaded = true
+    }
   }
 
   getLocation() {
     /*
-    Get user's geolocation. Set lat (latitude) and lng (longitude) values.
+    Request user's geolocation.
+    */
+    navigator.geolocation.getCurrentPosition(
+      this.locationSuccessCallback,
+      this.locationErrorCallback,
+      {timeout:10000}
+     )
+ }
+
+ locationSuccessCallback = (position) => {
+   /*
+    Geolocation sucessfully retrieved. Set location and
+    load venues.
+   */
+    this.lat = position.coords.latitude;
+    this.lng = position.coords.longitude;
+    this.getLocationSuccessful = true;
+
+    // COMMENT FOR TESTING
+    //this.getLocalBars()
+    // COMMENT FOR REAL
+    this.mockGetLocalBars()
+ }
+
+  locationErrorCallback = () => {
+    /*
+    Geolocation request failed.
     */
     this.lat = 40.73061;
     this.lng = -73.935242;
-    this.getLocationSuccessful = true
+    this.getLocationSuccessful = false;
+    this.callbacksDone = true
+    this.loadMapAfterCallbacks()
   }
 
   mockGetLocalBars(){
+    /*
+    Mock API call.
+    */
+    console.log('Warning: Using mock FourSquare response data')
     var items = mock_response.response.groups[0].items
     items.forEach(item => {
       var venue = item.venue
@@ -80,15 +106,24 @@ export class MapComponent implements AfterViewInit  {
           venue.location.lng,
           venue.location.distance))
     });
-    this.geVenuesSuccessful = true
+
+    // print mock venue response data
+    console.log(items);
+    console.log(this.venues);
+
+    this.getVenuesSuccessful = true
+    this.setVenueMarkers()
+    this.callbacksDone = true
+    this.loadMapAfterCallbacks()
   }
 
   getLocalBars() {
     /*
-    Load Venues 
+    Load local venues using the FourSquare API. 
     */
+    console.log('Warning: Using FourSquare API (max 950 calls per day)')
     // compose url
-    /*var url: string = "https://api.foursquare.com/v2/venues/explore"
+    var url: string = "https://api.foursquare.com/v2/venues/explore"
       + "?client_id=" + "ZN0YNXQQOZ0HRI4QEBM2WJPSYMGYK2JPGULPDBUPUIDGWVZR"
       + "&client_secret=" + "SHWQUQTFI05ZMIZZVBXCXLFOE5JEWP3A1JQVNEWAII0XULXW"
       + "&v=20180323"
@@ -102,6 +137,7 @@ export class MapComponent implements AfterViewInit  {
       next: data => {
           var items = data.response.groups[0].items
           items.forEach(item => {
+            // construct venue objects and push to array
             var venue = item.venue
             this.venues.push(
               new Venue(
@@ -110,20 +146,41 @@ export class MapComponent implements AfterViewInit  {
                 venue.location.lng,
                 venue.location.distance))
           });
-          this.geVenuesSuccessful = true
+          
+          // print API venue response data
+          console.log(items);
+          console.log(this.venues);
+
+          // set venues
+          this.setVenueMarkers()
+          this.getVenuesSuccessful = true
+
+          // set load map
+          this.callbacksDone = true
+          this.loadMapAfterCallbacks()
       },
       error: error => {
           this.errorMessage = error.message;
           console.error('Error fetching bar data:', error);
-          this.geVenuesSuccessful = false
+          this.getVenuesSuccessful = false
+          this.loadMapAfterCallbacks()
       }
     })
+  }
+
+  loadMapAfterCallbacks(){
+    /*
+    After the callbacks have completed, load the map.
     */
+    this.callbacksDone = true
+    if(this.mapReady && !this.mapLoaded){
+      this.mapInitializer();
+    }
   }
     
   setVenueMarkers() {
     /*
-    Set venue markers.
+    Set venue map markers.
     */
     // create marker
     this.venues.forEach((venue, i) => {
@@ -140,7 +197,6 @@ export class MapComponent implements AfterViewInit  {
       // add listener
       marker.addListener('click', () => {
         this.zone.run(() => { 
-          this.displayVenueInfo(i);
           this.map.panTo(pos)
         })
       });
@@ -158,6 +214,9 @@ export class MapComponent implements AfterViewInit  {
   }
 
   attachMarkerInfoWindow(
+    /*
+    Attaches a pop-up window for map markers.
+    */
     marker: google.maps.Marker,
     secretMessage: string
   ) {
@@ -174,25 +233,41 @@ export class MapComponent implements AfterViewInit  {
     });
   }
 
-  displayVenueInfo(venueIndex: number){
-    // TODO: Show bar data
-    console.log(venueIndex);
-  }
-
   mapInitializer() {
+    /*
+    Load the map (called only once).
+    */
+    var zoom: number
+
+    // location permission denied
+    if (this.getLocationSuccessful){
+      this.alertText = ""
+      zoom = 13
+    } else{
+      this.alertText = "Location access must be allowed to load local bars."
+      zoom = 5
+    }
+
+    // load venues from FourSquare API failed
+    if (this.getLocationSuccessful && !this.getVenuesSuccessful){
+      this.alertText = "Error: Failed to load local bars."
+    }
+
     // set map options
     var mapOptions: google.maps.MapOptions = {
       center: new google.maps.LatLng(this.lat, this.lng),
-      zoom: 14
+      zoom: zoom
     };
     
     // load the map
     this.map = new google.maps.Map(this.gmap.nativeElement, mapOptions);
+    this.mapLoaded = true
     
     //load markers
     this.markers.forEach( (marker, i) => {
       marker.setMap(this.map);
     });
+    
   }
 
 }
