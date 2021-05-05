@@ -10,14 +10,14 @@ import cocktails from "src/assets/cocktails.json";
   styleUrls: ['./drink.component.scss']
 })
 export class DrinkComponent implements OnInit {
-  listOfCocktails = cocktails
-  cocktailID:any=''
+  listOfCocktails = cocktails;
+  cocktailID:any='';
 
   constructor(
     private route: ActivatedRoute
   ) { 
     this.route.paramMap.subscribe(params=>{
-      this.cocktailID=params.get('id') //+ string to number
+      this.cocktailID=params.get('id'); //+ string to number
     })
   }
   
