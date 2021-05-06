@@ -34,30 +34,37 @@ export class MapComponent implements AfterViewInit  {
   getVenuesSuccessful = false
   previousInfoWindow = null
   callbacksDone = false
-  mapReady = false
-  mapLoaded = false
-  
+  mapReady = false  
+  isOnline = false
+  isErrorShown = false
 
   constructor(private http: HttpClient, private zone: NgZone) {
   }
 
   ngOnInit(){
-    // get location
-    this.getLocation()
-  }
-
-  ngAfterViewInit() {
-    this.mapReady = true
-    if(this.callbacksDone){
-      this.mapInitializer();
-      this.mapLoaded = true
+    if(navigator.onLine){
+      this.isOnline = true
+    }
+    else{
+      this.isOnline = false
+      this.alertText = "You're currently offline. Unable to load local bars."
+      this.isErrorShown = true
     }
   }
 
-  getLocation() {
+  ngAfterViewInit() {
+    if(this.isOnline){
+      this.mapReady = true
+      this.mapInit()
+    }
+  }
+
+  buttonPressed() {
     /*
     Request user's geolocation.
     */
+    this.venues = [];
+    this.markers = [];
     navigator.geolocation.getCurrentPosition(
       this.locationSuccessCallback,
       this.locationErrorCallback,
@@ -173,9 +180,7 @@ export class MapComponent implements AfterViewInit  {
     After the callbacks have completed, load the map.
     */
     this.callbacksDone = true
-    if(this.mapReady && !this.mapLoaded){
-      this.mapInitializer();
-    }
+    this.mapInitializer();
   }
     
   setVenueMarkers() {
@@ -233,6 +238,17 @@ export class MapComponent implements AfterViewInit  {
     });
   }
 
+  mapInit(){
+    // set map options
+    var mapOptions: google.maps.MapOptions = {
+      center: new google.maps.LatLng(this.lat, this.lng),
+      zoom: 5
+    };
+    
+    // load the map
+    this.map = new google.maps.Map(this.gmap.nativeElement, mapOptions);
+  }
+
   mapInitializer() {
     /*
     Load the map (called only once).
@@ -242,15 +258,18 @@ export class MapComponent implements AfterViewInit  {
     // location permission denied
     if (this.getLocationSuccessful){
       this.alertText = ""
+      this.isErrorShown = false
       zoom = 13
     } else{
       this.alertText = "Location access must be allowed to load local bars."
+      this.isErrorShown = true
       zoom = 5
     }
 
     // load venues from FourSquare API failed
     if (this.getLocationSuccessful && !this.getVenuesSuccessful){
       this.alertText = "Error: Failed to load local bars."
+      this.isErrorShown = true
     }
 
     // set map options
@@ -261,7 +280,6 @@ export class MapComponent implements AfterViewInit  {
     
     // load the map
     this.map = new google.maps.Map(this.gmap.nativeElement, mapOptions);
-    this.mapLoaded = true
     
     //load markers
     this.markers.forEach( (marker, i) => {
