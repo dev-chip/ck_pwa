@@ -1,29 +1,46 @@
 
 <div class="container-fluid">
+  <!-- Heading: Home -->
   <h1 class="d-flex col-sm-12 col-xs-3 justify-content-center mt-3">Home</h1>
+  <!-- random quote -->
   <div class="d-flex col-sm-12 col-xs-3 justify-content-center mt-3">
     <p class="text-center" style="font-size: 17px">{{this.randomQuote}}</p>
   </div>
 </div>
+<!-- title: cocktail of the week -->
 <div class="d-flex col-sm-12 col-xs-3 col-lg-12 justify-content-center mt-4">
   <p style="font-size:30px; ">Cocktail of the Week</p>
 </div>
-<div class="d-flex  justify-content-center mx-5 mt-2 ">
-    <img class=" img-fluid rounded-circle shadow"
-         src="assets/images/cocktails/tequila_sunset.jpg"
-         srcset="assets/images/cocktails/tequila_sunset.jpg 1024w,
-                 assets/images/cocktails/tequila_sunset_200x356.jpg 720w,
-                 assets/images/cocktails/tequila_sunset_180x320.jpg 420w,
-                 assets/images/cocktails/tequila_sunset_150x267 350w"
-         alt="Cocktail of the week"
-         style="max-height: 40vh; max-width:40vh;"> 
-</div>
+
+
 <div class="d-flex justify-content-center">
-  <p class="text-align-center mt-2">Tequila Sunset</p>
-</div>
-<div class="d-flex justify-content-center">
-  <p class="text-align-center mt-2">Submitted by Alice Smith</p>
-</div>
-<div class="d-flex justify-content-center">
-  <button routerLink="/drink/9">Learn this cocktail</button>
+  
+  <div class='pull-right'>
+    <!-- image -->
+    <div class="d-flex justify-content-center mx-5 mt-2 ">
+        <img class=" img-fluid rounded-circle shadow"
+            src="assets/images/cocktails/tequila_sunset.jpg"
+            srcset="assets/images/cocktails/tequila_sunset.jpg 1024w,
+                    assets/images/cocktails/tequila_sunset_200x356.jpg 720w,
+                    assets/images/cocktails/tequila_sunset_180x320.jpg 420w,
+                    assets/images/cocktails/tequila_sunset_150x267 350w"
+            alt="Cocktail of the week"
+            style="height: 40vh; max-height: 40vh; max-width:40vh;"> 
+    </div>
+  </div>
+
+  <div class='pull-right'>
+    <!-- cocktail name -->
+    <div class="d-flex justify-content-center">
+      <p class="text-align-center mt-2">Tequila Sunset</p>
+    </div>
+    <!-- author -->
+    <div class="d-flex justify-content-center">
+      <p class="text-align-center mt-0">Submitted by Alice Smith</p>
+    </div>
+    <!-- learn button -->
+    <div class="d-flex justify-content-center">
+      <button routerLink="/drink/9">Learn this cocktail</button>
+    </div>
+  </div>
 </div>
