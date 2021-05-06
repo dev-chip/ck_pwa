@@ -1,9 +1,11 @@
 
-<h1 class="mt-4 ms-2 ">{{listOfCocktails[cocktailID].name}}</h1>
-<img  class="images" style="max-width: 15vw;" src="assets/images/cocktails/{{listOfCocktails[cocktailID].img}}"/>
+<div class="container-fluid p-5 text-center bg-light">
+    <h1 class="mt-4 ms-2 ">{{listOfCocktails[cocktailID].name}}</h1>
+    <img  class="images" style="max-width: 20vh;" src="assets/images/cocktails/{{listOfCocktails[cocktailID].img}}" alt="{{listOfCocktails[cocktailID].name}}"/>
 
-<h2>Ingredients</h2>
-<p style="white-space: pre-line;">{{listOfCocktails[cocktailID].ingredients}}</p>
+    <h2>Ingredients</h2>
+    <p class="lead" style="white-space: pre-line;">{{listOfCocktails[cocktailID].ingredients}}</p>
 
-<h2>Method</h2>
-<p style="white-space: pre-line;">{{listOfCocktails[cocktailID].method}}</p>
+    <h2>Method</h2>
+    <p class="lead" style="white-space: pre-line;">{{listOfCocktails[cocktailID].method}}</p>
+</div>
