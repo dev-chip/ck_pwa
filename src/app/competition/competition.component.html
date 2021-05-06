@@ -1,43 +1,35 @@
 <div class="container-fluid">
     <h1 class="mt-4 ms-2 ">Competition</h1>
     <div class="mt-3 ms-3" *ngIf="this.isOnline">
-        <form>
+        <form ngNativeValidate (ngSubmit)="resetLocalStorage()"> 
             <div class="form-group col">
                 <div class="row my-2 d-flex ">
-                    <!--<div class="col-sm-3 d-flex">
-                    
-                    <input type="text" class="form-control" placeholder="First name">
-                    </div>
-                    <div class="col-sm-3">
-                    <input type="text" class="form-control" placeholder="Last name">
-                    </div>-->
                     <div class="form-floating col-sm-3 ">
-                        <input type="text" class="form-control " id="floatingFirstName" placeholder="First name">
+                        <input type="text" class="form-control " id="firstName" (change)="saveEntries()" placeholder="First name" [(ngModel)]="firstName" name='firstName' required />
                         <label for="floatingfirstName" class="ms-2 text-muted">First name</label>
                       </div>
                       <div class="form-floating col-sm-3">
-                        <input type="text" class="form-control " id="floatingSurname" placeholder="Last name">
+                        <input type="text" class="form-control " id="lastName" (change)="saveEntries()" placeholder="Last name" [(ngModel)]="lastName" name='lastName' />
                         <label for="floatingSurname" class="ms-2 text-muted">Last name</label>
                       </div>
                     </div>
             
                 <div class="row my-2 d-flex ">
                     <div class="col-sm-6 form-floating">
-                    <!--<input type="email" class="form-control" id="inputEmail3" placeholder="Email">-->
-                    <input type="email" class="form-control " id="inputEmail3" placeholder="Email">
+                    <input type="email" class="form-control " id="email" (change)="saveEntries()" placeholder="Email" [(ngModel)]="email" name='email' required />
                         <label for="inputEmail3" class="ms-2 text-muted">Email</label>
                     </div>
                 </div>
                 
                 <div class="form-floating col-sm-8 mb-2">
                     
-                    <textarea class="form-control" style="min-height: 4rem;" placeholder="Leave a comment here" id="floatingTextarea" aria-label="With textarea"></textarea>
+                    <textarea class="form-control" style="min-height: 4rem;" placeholder="Leave a comment here" id="ingredients" aria-label="With textarea" (change)="saveEntries()" [(ngModel)]="ingredients" name='ingredients' required></textarea>
                      <label for="floatingTextarea" class="text-muted" >Ingredients</label>
                 </div>
                 
                 <div class="form-floating col-sm-8 mb-3">
                     
-                    <textarea class="form-control" style="min-height: 4rem;" placeholder="Method" id="floatingMethodArea" aria-label="With textarea"></textarea>
+                    <textarea class="form-control" style="min-height: 4rem;" placeholder="Method" id="method" (change)="saveEntries()" aria-label="With textarea" [(ngModel)]="method" name='method' required></textarea>
                      <label for="floatingMethodArea" class="text-muted" >Method</label>
                   </div>
               
@@ -45,13 +37,13 @@
                 <div class="form-group row">
                     <div class="col-sm-8 ms-4 mb-2">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1" />
                             <label class="form-check-label" for="gridCheck1">
                             Share my name as the author of the cocktail.
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck2">
+                            <input class="form-check-input" type="checkbox" id="gridCheck2" />
                             <label class="form-check-label" for="gridCheck2">
                             Send me an email alert.
                             </label>
@@ -61,7 +53,7 @@
             
                 <div class="form-group ms-3 ">
                     <label for="exampleFormControlFile1" class="d-block mb-3">Upload image</label>
-                    <input type="file" class="form-control-file d-block mb-2 ms-1" id="exampleFormControlFile1">
+                    <input type="file" class="form-control-file d-block mb-2 ms-1" id="exampleFormControlFile1" required>
                 </div>
                 <div class="form-group row  mt-3">
                     <div class="col-sm-10 d-flex justify-content-between">
