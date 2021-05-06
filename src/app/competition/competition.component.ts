@@ -7,9 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CompetitionComponent implements OnInit {
 
-  isOnline = false;
-  dataSource = "hi!"
-
+  isOnline: boolean;
   firstName: string
   lastName: string
   email: string
@@ -17,7 +15,6 @@ export class CompetitionComponent implements OnInit {
   method: string
 
   constructor() {
-    this.dataSource = "initial value"
   }
 
   ngOnInit(): void {
