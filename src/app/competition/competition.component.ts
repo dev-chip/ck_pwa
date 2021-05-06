@@ -56,7 +56,6 @@ export class CompetitionComponent implements OnInit {
     /*
     Form submission.
     */
-    // Alert the user the form has been submitted
     alert('Cocktail submitted. Good luck!')
     // Clear local storage
     localStorage.setItem("firstName", "");
