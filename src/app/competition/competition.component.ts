@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CompetitionComponent implements OnInit {
 
+  isOnline = false;
+
   constructor() { }
 
   ngOnInit(): void {
+    if(navigator.onLine){
+      this.isOnline = true;
+    }
+    else{
+      this.isOnline = false;
+    }
   }
 
 }
