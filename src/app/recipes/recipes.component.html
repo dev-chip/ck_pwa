@@ -4,17 +4,17 @@
 <div class="row row-cols-auto">
 <div  *ngFor="let item of listOfCocktails; let i = index">
     <div class="ms-5 mt-3 col " >
-        <div class="card shadow" style="min-width: 300px; max-width: 300px;">
+        <div class="card shadow" style="min-width: 350px; max-width: 350px;">
 
 
           <div class="d-flex d-inline">
             <div class="col-md-4 rounded-left">
-              <img  src="assets/images/cocktails/{{item.img}}" style="height: 9rem; width:6rem; border-radius: 3px 0px 0px 3px;" alt="{{item.name}}">
+              <img  src="assets/images/cocktails/{{item.img}}" style="height: 11rem; width:7rem; border-radius: 3px 0px 0px 3px;" alt="{{item.name}}">
             </div>
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title ">{{item.name}}</h5>
-                <p class="card-text">{{item.description}}</p>
+                <p class="card-text" style="font-size: 15px;">{{item.description}}</p>
                 <button class="btn btn-dark align-self-end mt-auto" routerLink="/drink/{{i}}">See Recipe</button>
               </div>
             </div>
