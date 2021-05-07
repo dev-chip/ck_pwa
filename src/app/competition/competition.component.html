@@ -3,6 +3,7 @@
     <div class="mt-3 ms-3" *ngIf="this.isOnline">
         <form ngNativeValidate (ngSubmit)="submitForm()"> 
             <div class="form-group col">
+                <!-- First & Last Name -->
                 <div class="row my-2 d-flex ">
                     <div class="form-floating col-sm-3 ">
                         <input type="text" class="form-control " id="firstName" (change)="saveEntries()" placeholder="First name" [(ngModel)]="firstName" name='firstName' required />
@@ -14,6 +15,7 @@
                       </div>
                     </div>
             
+                <!-- Email -->
                 <div class="row my-2 d-flex ">
                     <div class="col-sm-6 form-floating">
                     <input type="email" class="form-control " id="email" (change)="saveEntries()" placeholder="Email" [(ngModel)]="email" name='email' required />
@@ -21,18 +23,19 @@
                     </div>
                 </div>
                 
+                <!-- Ingredients -->
                 <div class="form-floating col-sm-8 mb-2">
-                    
                     <textarea class="form-control" style="min-height: 4rem;" placeholder="Leave a comment here" id="ingredients" aria-label="With textarea" (change)="saveEntries()" [(ngModel)]="ingredients" name='ingredients' required></textarea>
                      <label for="floatingTextarea" class="text-muted" >Ingredients</label>
                 </div>
                 
+                <!-- Method -->
                 <div class="form-floating col-sm-8 mb-3">
-                    
                     <textarea class="form-control" style="min-height: 4rem;" placeholder="Method" id="method" (change)="saveEntries()" aria-label="With textarea" [(ngModel)]="method" name='method' required></textarea>
                      <label for="floatingMethodArea" class="text-muted" >Method</label>
                   </div>
               
+                <!-- Checkboxes -->
                 <p class="ms-3 " style="font-size: 18px; font-weight: bold;">If my cocktail wins:</p>
                 <div class="form-group row">
                     <div class="col-sm-8 ms-4 mb-2">
@@ -50,11 +53,28 @@
                         </div>
                     </div>
                 </div>
-            
+                
+                <p class="ms-3 " style="font-size: 18px; font-weight: bold;">Upload Image</p>
+                <!-- File chooser
                 <div class="form-group ms-3 ">
                     <label for="exampleFormControlFile1" class="d-block mb-3">Upload image</label>
-                    <input type="file" class="form-control-file d-block mb-2 ms-1" id="exampleFormControlFile1" required>
+                    <input type="file" class="form-control-file d-block mb-2 ms-1" id="exampleFormControlFile1">
+                </div> -->
+
+                <!-- Camera -->
+                <div class="form-group ms-3 ">
+                    <div>
+                        <div><button id="showCamera" type='button' (click)="showCamera()" *ngIf="!this.cameraOn">Capture Image</button></div>
+                    </div>
+                    <div *ngIf="this.cameraOn">
+                        <div><video #video id="video" width="100%" style="max-width: 600px;" autoplay></video></div>
+                        <div><button type='button' id="snap" (click)="capture()">Snap Photo</button></div>
+                    </div>
+                    <br>
+                    <canvas #canvas id="canvas" width="this.imageWidth" height="this.iamgeHeight" style="border: 1px solid black;"></canvas>
                 </div>
+
+                <!-- Submit button -->
                 <div class="form-group row  mt-3">
                     <div class="col-sm-10 d-flex justify-content-between">
                         <button type="submit" class="btn btn-primary me-auto">Submit</button>
