@@ -82,9 +82,9 @@ export class MapComponent implements AfterViewInit  {
     this.getLocationSuccessful = true;
 
     // COMMENT FOR TESTING
-    //this.getLocalBars()
+    this.getLocalBars()
     // COMMENT FOR REAL
-    this.mockGetLocalBars()
+    //this.mockGetLocalBars()
  }
 
   locationErrorCallback = () => {
