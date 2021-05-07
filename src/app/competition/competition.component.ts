@@ -17,6 +17,7 @@ export class CompetitionComponent implements OnInit {
   firstName: string;
   lastName: string;
   email: string;
+  cocktailName: string;
   ingredients: string;
   method: string;
   
@@ -51,6 +52,7 @@ export class CompetitionComponent implements OnInit {
     this.firstName = localStorage.getItem('firstName');
     this.lastName = localStorage.getItem('lastName');
     this.email = localStorage.getItem('email');
+    this.cocktailName = localStorage.getItem('cocktailName');
     this.ingredients = localStorage.getItem('ingredients');
     this.method = localStorage.getItem('method');
   }
@@ -62,6 +64,7 @@ export class CompetitionComponent implements OnInit {
   localStorage.setItem("firstName", (<HTMLInputElement>document.getElementById('firstName')).value);
   localStorage.setItem("lastName", (<HTMLInputElement>document.getElementById('lastName')).value);
   localStorage.setItem("email", (<HTMLInputElement>document.getElementById('email')).value);
+  localStorage.setItem("cocktailName", (<HTMLInputElement>document.getElementById('cocktailName')).value);
   localStorage.setItem("ingredients", (<HTMLInputElement>document.getElementById('ingredients')).value);
   localStorage.setItem("method", (<HTMLInputElement>document.getElementById('method')).value);
   }
@@ -75,6 +78,7 @@ export class CompetitionComponent implements OnInit {
     localStorage.setItem("firstName", "");
     localStorage.setItem("lastName", "");
     localStorage.setItem("email", "");
+    localStorage.setItem("cocktailName", "");
     localStorage.setItem("method", "");
     localStorage.setItem("ingredients", "");
     // Refresh the page to clear fields

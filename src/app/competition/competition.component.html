@@ -23,15 +23,21 @@
                     </div>
                 </div>
                 
+                <!-- Cocktail Name -->
+                <div class="form-floating col-sm-8 mb-2">
+                    <textarea class="form-control" style="min-height: 4rem;" placeholder="Leave a comment here" id="cocktailName" aria-label="With textarea" (change)="saveEntries()" [(ngModel)]="cocktailName" name='cocktailName' required></textarea>
+                    <label for="floatingTextarea" class="text-muted" >Cocktail Name</label>
+                </div>
+
                 <!-- Ingredients -->
                 <div class="form-floating col-sm-8 mb-2">
-                    <textarea class="form-control" style="min-height: 4rem;" placeholder="Leave a comment here" id="ingredients" aria-label="With textarea" (change)="saveEntries()" [(ngModel)]="ingredients" name='ingredients' required></textarea>
+                    <textarea class="form-control" style="min-height: 8rem;" placeholder="Leave a comment here" id="ingredients" aria-label="With textarea" (change)="saveEntries()" [(ngModel)]="ingredients" name='ingredients' required></textarea>
                      <label for="floatingTextarea" class="text-muted" >Ingredients</label>
                 </div>
                 
                 <!-- Method -->
                 <div class="form-floating col-sm-8 mb-3">
-                    <textarea class="form-control" style="min-height: 4rem;" placeholder="Method" id="method" (change)="saveEntries()" aria-label="With textarea" [(ngModel)]="method" name='method' required></textarea>
+                    <textarea class="form-control" style="min-height: 8rem;" placeholder="Method" id="method" (change)="saveEntries()" aria-label="With textarea" [(ngModel)]="method" name='method' required></textarea>
                      <label for="floatingMethodArea" class="text-muted" >Method</label>
                   </div>
               
