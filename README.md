@@ -1,4 +1,4 @@
-# CocktailKing
+# Cocktail King
 
 A cocktail themed Progressive Web Application (PWA) written in TypeScript.
 
